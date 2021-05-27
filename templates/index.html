@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/style.css">
+    </head>
+</head>
+<body>
+    <header>
+        <div class="home">
+            <h1 class="home">Home</h1>
+        </div>
+
+        <nav class="nav_links">
+            <ul class="nav-bar-ul">
+                <li class="links"><a href="index.html">Home</a></li>
+                <li class="links"><a href="NNinfo.html">What is Neural Networks?</a></li>
+                <li class="links"><a href="#">Code Explaination</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="landing">
+        
+
+        <div class="landing-text">
+            <p></p>
+        </div>
+
+    </div>
+
+    <div class="additional-text">
+        <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quisquam sunt repellendus quibusdam veniam dolorum consequuntur reiciendis cupiditate similique, soluta consectetur illo at amet harum distinctio optio. Dolor aspernatur incidunt dolores voluptates dignissimos accusantium eveniet provident omnis, minus at. Adipisci optio atque tempora non, itaque, repudiandae ex aliquid consequatur similique neque, delectus animi. Officiis corporis sed distinctio suscipit eius! Earum et modi eos fuga, vel placeat reprehenderit tempora nesciunt accusamus reiciendis, esse iusto harum asperiores voluptate dolorem beatae consectetur sint animi ullam maiores? Ipsum eius aspernatur culpa perferendis possimus dignissimos mollitia natus, rem ullam, sint nobis vitae odit sit molestiae.</p>-->
+    </div>
+
+    <div class="upload-div">
+        <h2>Upload Image Here</h2>
+        <br><br>
+
+        <!--<div class="upload-button">
+            <a class="button-text" href="#">Button</a>
+        </div>-->
+        <center>
+        <form method="POST" action="{{url_for('home')}}" enctype="multipart/form-data">
+            <div class="upload-button">
+
+                <input type="file" name='image' class='btn'><br><br>
+            
+                <input type="submit" class='btn' value="Upload">
+            </div>
+        </form>
+        </center>
+    </div>
+
+    <footer>TY mini project 2021</footer>
+    
+</body>
+</html>

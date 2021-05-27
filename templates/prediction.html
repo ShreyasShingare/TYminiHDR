@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+      <div class='cont'>
+            
+        
+        {% if data == 1 %}
+        <h1>The Number is 1</h1>
+
+        {% elif data == 2 %}
+        <h1>The Number is 2</h1>
+
+        {% elif data == 3 %}
+        <h1>The Number is 3</h1>
+
+        {% elif data == 4 %}
+        <h1>The Number is 4</h1>
+
+        {% elif data == 5 %}
+        <h1>The Number is 5</h1>
+
+        {% elif data == 6 %}
+        <h1>The Number is 6</h1>
+
+        {% elif data == 7 %}
+        <h1>The Number is 7</h1>
+
+        {% elif data == 8 %}
+        <h1>The Number is 8</h1>
+
+        {% elif data == 9 %}
+        <h1>The Number is 9</h1>
+
+        {% elif data == 0 %}
+        <h1>The Number is 0</h1>
+
+        {% else %}
+        <h1>not recognised</h1>
+
+        
+        {%endif%}
+
+      </div>
+        
+        <img src="{{url_for('load')}}" alt='img'>
+        <div, style="text-align: center; background-color: blue">
+          <a href="/" class='btn'>go back</a>
+        </div>
+          
+
+    </center>
+</body>
+</html>
