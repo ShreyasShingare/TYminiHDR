@@ -1,4 +1,7 @@
-model.load_weights('my_h5_model.h5')
+from tensorflow.keras.models import load_model
+model = load_model('my_h5_model.h5')
+
+#model.load_weights('my_h5_model.h5')
 #-------------------------------------------------------------------------------------------#
 
 COUNT = 0
