@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: ivory;
+    font-family: sans-serif;
+    margin:0px;
+    padding:0px;
+    color: white;
+}
+
+header{
+    background: #24252a;
+    /*padding-top:20px ;*/
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10%;
+   
+    
+}
+
+.landing{
+    background-image: url(./landing_image.jpg);
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    height: 85vh;
+    background-size: cover;
+}
+
+ /*.landing-text{
+    color: #24252a;
+    font-size: 2.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-top: 20px;
+}*/
+.additional-text{
+    color: #24252a;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin: 20px 10px;
+}
+
+.upload-div h2{
+    text-align: center;
+    font-size: 40px;
+    color: #24252a;
+    
+}
+
+.upload-button input[type=submit] {
+    background-color: #129ffd;
+        border: none;
+        color: #fff;
+        padding: 15px 30px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: large;
+    
+}
+
+input[type=file]{
+    color: #24252a;
+}
+
+
+
+
+
+h1,.home{
+    text-align: left;
+    margin-right: auto;
+
+}
+
+header li :hover{
+    
+    color: rgb(46, 135, 236);
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    
+
+}
+
+/*--------------------------------------------------*/
+/*Links in navBar*/
+a{                         
+    color: white;
+    text-decoration: none;
+}
+ul.nav-bar-ul{
+    margin:0px;
+    padding:0px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+}
+
+/*--------------------------------------------------*/
+
+
+.links{                      /*Links in NavBar */
+    /*display:inline-block;*/
+    margin: 0 20px 0 0;
+    
+}
+
+
+/*--------------------------------------------------*/  /*What is Neural Networks*/
+.NN-heading-title{
+    font-size: 8vh;
+    color: #24252a;
+    text-align: left;
+    font-family: serif;
+    margin: 10px 10px 55px 10px;
+    
+}
+
+.NN-heading-text{
+    color: #24252a;
+    text-align: center;
+    margin: 10px 10px 55px 10px;
+    font-size: 20px;
+    font-style: italic;
+    
+}
+
+.NN-text{
+    color: #24252a;
+    text-align: left;
+    margin: 20px 20px 20% 20px;
+    font-size: 15px;
+
+}
+
+.btn{
+    text-align: center;
+    align-items: center;
+}
+
+
+
+
+footer{
+    background: black;
+    padding:10px 20px;
+    text-align: center;
+    color: grey;
+    position: relative;
+    bottom: 0;
+    /*width: 100%;*/
+    
+}
