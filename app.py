@@ -14,6 +14,7 @@ import cv2
 app = Flask(__name__)
 #run_with_ngrok(app)
 app.config["SEND_FILE_MAX_AGE_DEFAULT"] = 1
+IMG_SIZE=28
  
 @app.route('/')
 def man():
