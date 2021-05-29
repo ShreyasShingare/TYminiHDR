@@ -6,6 +6,7 @@ model = load_model('my_h5_model.h5')
 
 COUNT = 0
 import tensorflow as tf
+import numpy as np
 #from flask import Flask, render_template, request, send_from_directory, *
 from flask import *
 #from flask_ngrok import run_with_ngrok
